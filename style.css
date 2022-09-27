@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title {
+    text-align: center;
+    margin: 0;
+
+}
+
+
+.index-photo {
+    background-size: contain;
+    background-image: url("imagenes/bife.avif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-bottom: 45%;
+}
+
+h4{
+    text-align: center;
+    font-size: 36px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+
+.box{
+    width: 300px;
+    border: solid 7px black;
+    padding: 50px;
+    margin: 10px;
+    text-align: center;
+    overflow: hidden;
+    display: inline-block;
+    margin-right: 15%;
+    color: white;
+}
+
+footer{
+    background-color: #212529;
+}
+
+
+.product-item img{
+  height: 300px;
+  width: 300px;
+}
+
+h1{
+  margin-bottom: 10px;
+}
+
+header{
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+
