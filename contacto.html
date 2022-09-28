@@ -45,19 +45,42 @@
 </header>
 
 <body>
+  <div class="container">
     <h1>Contacto</h1>
     <p>Dejanos tu mensaje y nos contactaremos a la brevedad</p>
-    <label>Nombre</label> <br/>
-    <input type="text" placeholder="Nombre" value=""> <br/>
-    <label>Correo electrónico</label> <br/>
-    <input type="email" placeholder="Correo electrónico"> <br/>
-    <label>Número de teléfono</label> <br/>
-    <input type="tel" placeholder="Número de teléfono"> <br/>
-    <label>Mensaje</label> <br/>
-    <textarea placeholder="Mensaje"></textarea> <br/>
-    <input type="submit" value="Enviar"> <br/>
 
-    <Footer>
+    <form>
+      <div class="form-group">
+        <label for="name">Nombre</label>
+        <input type="name" class="form-control" placeholder="Escribi tu nombre">
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" placeholder="Escribi tu email">
+      </div>
+      <div class="form-group">
+        <label for="phone">Número de teléfono</label>
+        <input type="number" class="form-control" placeholder="11 12345678">
+      </div>
+      <div class="form-group">
+        <label for="message">Mensaje</label>
+        <textarea type="textarea" class="form-control" id="textarea" placeholder="Escribi tu mensaje"></textarea>
+      </div>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Acepto los terminos y condiciones</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </form> </br>
+
+    <div class="map-frame" style="height: 500px">
+      <iframe class="map-frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1641.7446341861748!2d-58.431863513905896!3d-34.61707420061866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca440ec19097%3A0x30b34282ae8fae18!2sParque%20Rivadavia!5e0!3m2!1ses-419!2sar!4v1664323388727!5m2!1ses-419!2sar"></iframe>
+    </div>
+</div>
+
+
+
+    <footer>
       <div class="container text-bg-dark p-3 text-center">
           <div class="row">
             <div class="col">
@@ -78,6 +101,6 @@
           </div>
         </div>
   
-  </Footer>
+  </footer>
 </body>
 </html>
